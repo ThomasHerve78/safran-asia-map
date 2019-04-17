@@ -263,11 +263,11 @@ button:focus {
 }
 
 .level--1::after {
-	content: 'L1';
+	content: 'Level 1';
 }
 
 .level--2::after {
-	content: 'L2';
+	content: 'Level 2';
 }
 
 .level--3::after {
@@ -942,18 +942,18 @@ button:focus {
 
 /* Pins for floor 2 */
 .pin--2-1 { top: 16vmin; left: 18vmin; }
-.pin--2-2 { top: 30vmin; left: 22vmin; }
+.pin--2-2 { top: 32vmin; left: 22vmin; }
 /*.pin--2-3 { top: 41vmin; left: 22vmin; } */
 .pin--2-4 { top: 20vmin; left: 30vmin; }
 .pin--2-5 { top: 30vmin; left: 30vmin; }
 .pin--2-6 { top: 45vmin; left: 30vmin; }
 .pin--2-7 { top: 35vmin; left: 60vmin; }
 .pin--2-8 { top: 35vmin; left: 85vmin; }
-.pin--2-9 { top: 13vmin; left: 52vmin; }
+.pin--2-9 { top: 18vmin; left: 55vmin; }
 .pin--2-11 { top: 8vmin; left: 5vmin; }
 .pin--2-12 { top: 60vmin; left: 43vmin; }
 .pin--2-121 { top: 10vmin; left: 38vmin; }
-.pin--2-14 { top: 10vmin; left: 44vmin; }
+.pin--2-14 { top: 12vmin; left: 41vmin; }
 .pin--2-13 { top: 60vmin; left: 5vmin; }
 /* Mobile compatability */
 .open-search,
