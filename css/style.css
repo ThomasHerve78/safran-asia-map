@@ -69,7 +69,11 @@ button:focus {
 	position: relative;
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 }
+.container--overflow {
+		overflow: auto;
+	}
 
 /* Header */
 
@@ -511,6 +515,7 @@ button:focus {
 	transition: transform 0.8s;
 	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	overflow: auto;
 }
 
 .content--open .content__item {
@@ -962,7 +967,7 @@ button:focus {
 }
 
 
-@media screen and (max-width: 100em), screen and (max-height: 100em) {
+@media screen and (max-width: 60em), screen and (max-height: 60em) {
 	.main {
 		width: 100vw;
 	}
